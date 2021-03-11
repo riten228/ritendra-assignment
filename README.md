@@ -4,7 +4,7 @@ Repository for sharing the solution of the assignment solution
 Additional questions:
 ### The test data contains a big amount of test data. If you would have an ability to put this to the repository, how would you structure it?
 
-We can keep it on AEM repository (create a node like /etc /etc/oscarFilms and add data inside by creating child nodes (one node for one entry)). We can access the node to get the data from every nodes and provide response accordingly.
+We can keep it on AEM repository (create a node under /etc, like /etc/oscarFilms and add data inside by creating child nodes (one node for one entry)). We can access the node to get the data from every nodes and provide response accordingly.
 ```
 Map<String, Object> param = new HashMap<String, Object>();
 param.put(ResourceResolverFactory.SUBSERVICE, "subService");
